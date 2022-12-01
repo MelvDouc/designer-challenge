@@ -1,3 +1,8 @@
 .delimiter {
-  border-right: 1px solid var(--clr-gray-dark);
+  width: 1px;
+  height: 1em;
+  border-style: solid;
+  border-color: var(--clr-gray-dark);
+  border-width: 0;
+  border-left-width: 1px;
 }
