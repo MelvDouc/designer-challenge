@@ -16,6 +16,18 @@ class LangSelector extends HTMLElement {
       icon = valueDisplay.querySelector("i");
     const optionsContainer = this.querySelector("ul.options");
 
+    const expand = () => {
+      optionsContainer.classList.remove(cssClasses.HIDDEN);
+      icon.classList.remove(cssClasses.ANGLE_DOWN);
+      icon.classList.add(cssClasses.ANGLE_UP);
+    };
+
+    const collapse = () => {
+      optionsContainer.classList.add(cssClasses.HIDDEN);
+      icon.classList.remove(cssClasses.ANGLE_UP);
+      icon.classList.add(cssClasses.ANGLE_DOWN);
+    };
+
     optionsContainer.addEventListener("click", ({ target }) => {
       if (!(target instanceof HTMLLIElement))
         return;
@@ -23,17 +35,10 @@ class LangSelector extends HTMLElement {
       valueElement.innerText = this.value;
     });
     this.addEventListener("click", () => {
-      if (optionsContainer.classList.contains(cssClasses.HIDDEN)) {
-        optionsContainer.classList.remove(cssClasses.HIDDEN);
-        icon.classList.remove(cssClasses.ANGLE_DOWN);
-        icon.classList.add(cssClasses.ANGLE_UP);
-        return;
-      }
-      optionsContainer.classList.add(cssClasses.HIDDEN);
-      icon.classList.remove(cssClasses.ANGLE_UP);
-      icon.classList.add(cssClasses.ANGLE_DOWN);
+      if (optionsContainer.classList.contains(cssClasses.HIDDEN))
+        return expand();
+      collapse();
     });
-
   }
 
   get value() {

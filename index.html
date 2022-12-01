@@ -23,10 +23,10 @@
         <div class="flex justify-content-end align-items-center gap-1">
           <div>
             <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="search" placeholder="Recherche" class="search-input">
+            <input type="search" placeholder="Recherche" class="search-input" tabindex="0">
           </div>
           <span class="delimiter"></span>
-          <lang-selector>
+          <lang-selector tabindex="0">
             <div class="value-display"><span>FR</span> <i class="fa-solid fa-angle-down"></i></div>
             <ul class="options hidden">
               <li>FR</li>
@@ -35,7 +35,7 @@
           </lang-selector>
         </div>
         <nav>
-          <ul class="direction-column-portrait">
+          <ul class="direction-column-portrait" tabindex="0">
             <li>
               <div class="nav-dropdown">
                 <span>Rubrique 1</span>
@@ -48,7 +48,7 @@
               </div>
             </li>
             <li>
-              <div class="nav-dropdown">
+              <div class="nav-dropdown" tabindex="0">
                 <span>Rubrique 2 long label</span>
                 <ul>
                   <li><a href="#">Sous-rubrique 1</a></li>

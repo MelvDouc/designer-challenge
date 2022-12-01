@@ -1,5 +1,5 @@
 [ ] Slider dots
 [X] Curly braces as ::before
 [X] Fix border file
-[ ] Lang select
-[ ] Move font props to new file
+[X] Lang select
+[X] Move font props to new file
