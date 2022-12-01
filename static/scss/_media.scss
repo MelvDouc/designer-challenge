@@ -3,6 +3,16 @@
     width: 100% !important;
   }
 
+  @for $i from 0 through 100 {
+    .w-portrait-#{$i} {
+      width: calc($i * 1%);
+    }
+
+    .h-portrait-#{$i} {
+      height: calc($i * 1%);
+    }
+  }
+
   .direction-column-portrait {
     flex-direction: column;
   }
