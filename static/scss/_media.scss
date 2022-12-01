@@ -25,6 +25,10 @@
     flex-wrap: wrap;
   }
 
+  .nav-dropdown>ul {
+    width: 100%;
+  }
+
   .footer-cols {
     flex-flow: column wrap;
     gap: 2em;
@@ -40,6 +44,10 @@
 @media only screen and (max-width: 400px) {
   :root {
     font-size: 14px;
+  }
+
+  .bg-img5 {
+    background-position-x: left;
   }
 }
 
