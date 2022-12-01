@@ -1,0 +1,17 @@
+.f-style-normal {
+  font-style: normal !important;
+}
+
+@for $i from 1 through 9 {
+  .f-weight-#{calc($i * 100)} {
+    font-weight: calc($i * 100) !important;
+  }
+}
+
+.ff-secondary {
+  font-family: Inter, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@mixin font-secondary {
+  font-family: Inter, Verdana, Geneva, Tahoma, sans-serif;
+}

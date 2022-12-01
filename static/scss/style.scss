@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
+
+:root {
+  --clr-blue-med: rgb(38, 170, 197);
+  --clr-gray-dark: rgb(138, 135, 135);
+  --clr-gray-darker: rgb(112, 112, 112);
+  --clr-gray-light: rgb(239, 239, 239);
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+body {
+  font-family: 'Open Sans', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  word-break: break-all;
+  word-break: break-word;
+}
+
+@import "utils/index";
+@import "elements/index";
+@import "media";

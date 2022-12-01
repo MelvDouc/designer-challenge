@@ -1,0 +1,29 @@
+.m-0 {
+  margin: 0 !important;
+}
+
+@for $i from 0 through 6 {
+  .m-top-#{$i} {
+    margin-top: calc(0.2em * $i) !important;
+  }
+
+  .m-bottom-#{$i} {
+    margin-bottom: calc(0.2em * $i) !important;
+  }
+
+  .m-left-#{$i} {
+    margin-left: calc(0.2em * $i) !important;
+  }
+
+  .m-right-#{$i} {
+    margin-right: calc(0.2em * $i) !important;
+  }
+
+  .m-block-#{$i} {
+    margin-block: calc(0.2em * $i) !important;
+  }
+
+  .m-inline-#{$i} {
+    margin-inline: calc(0.2em * $i) !important;
+  }
+}

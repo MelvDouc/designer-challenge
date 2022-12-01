@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="./static/css/style.css">
+  <script src="./static/js/main.js" type="module"></script>
+  <title>Bose</title>
+</head>
+
+<body>
+  <header>
+    <section class="row">
+      <article class="col-33" id="header-top">
+        <div class="grid center w-100 h-100">
+          <img src="./static/img/logo-dark.png" alt="Logo Bose">
+        </div>
+      </article>
+      <article class="col-66 p-top-3 flex direction-column justify-content-between gap-8">
+        <div class="flex justify-content-end align-items-center gap-1">
+          <div>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search" placeholder="Recherche" class="search-input">
+          </div>
+          <span class="delimiter"></span>
+          <lang-selector>
+            <div class="value-display"><span>FR</span> <i class="fa-solid fa-angle-down"></i></div>
+            <ul class="options hidden">
+              <li>FR</li>
+              <li>EN</li>
+            </ul>
+          </lang-selector>
+        </div>
+        <nav>
+          <ul class="direction-column-portrait">
+            <li>
+              <div class="nav-dropdown">
+                <span>Rubrique 1</span>
+                <ul>
+                  <li><a href="#">Sous-rubrique 1</a></li>
+                  <li><a href="#">Sous-rubrique 2</a></li>
+                  <li><a href="#">Sous-rubrique label plus long 3</a></li>
+                  <li><a href="#">Sous-rubrique 4</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="nav-dropdown">
+                <span>Rubrique 2 long label</span>
+                <ul>
+                  <li><a href="#">Sous-rubrique 1</a></li>
+                  <li><a href="#">Sous-rubrique 2</a></li>
+                  <li><a href="#">Sous-rubrique label plus long 3</a></li>
+                  <li><a href="#">Sous-rubrique 4</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="nav-dropdown">
+                <span>Rubrique 3</span>
+                <ul>
+                  <li><a href="#">Sous-rubrique 1</a></li>
+                  <li><a href="#">Sous-rubrique 2</a></li>
+                  <li><a href="#">Sous-rubrique label plus long 3</a></li>
+                  <li><a href="#">Sous-rubrique 4</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="nav-dropdown">
+                <span>Rubrique 4</span>
+                <ul>
+                  <li><a href="#">Sous-rubrique 1</a></li>
+                  <li><a href="#">Sous-rubrique 2</a></li>
+                  <li><a href="#">Sous-rubrique label plus long 3</a></li>
+                  <li><a href="#">Sous-rubrique 4</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="nav-dropdown">
+                <span>Rubrique 5</span>
+                <ul>
+                  <li><a href="#">Sous-rubrique 1</a></li>
+                  <li><a href="#">Sous-rubrique 2</a></li>
+                  <li><a href="#">Sous-rubrique label plus long 3</a></li>
+                  <li><a href="#">Sous-rubrique 4</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </article>
+    </section>
+
+    <section class="row bg-center bg-cover bg-img1">
+      <article class="col-50 color-white bg-center bg-cover large-title">
+        <h2>Votre téléviseur<br>mérite le meilleur son</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dolores, quam veritatis fuga qui in numquam doloremque quas eos fugiat!</p>
+        <p>Corrupti doloremque eaque, hic nulla deleniti tenetur, id sint ut pariatur reiciendis perspiciatis cupiditate vel dignissimos, nesciunt sequi incidunt soluta?</p>
+      </article>
+      <div id="carousel"></div>
+    </section>
+  </header>
+
+  <main>
+    <section class="row">
+      <article class="col-100">
+        <p class="color-dark"><i class="fa-sharp fa-solid fa-house-chimney"></i> &mdash; À propos de Bose</p>
+      </article>
+    </section>
+
+    <section class="row">
+      <article class="col-75">
+        <div class="content-block">
+          <h2>Lorem</h2>
+          <h3>Mission</h3>
+          <div class="content-block__content">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi neque impedit quidem tempora atque aliquam ut cupiditate, saepe ullam, praesentium aperiam voluptate, fuga consectetur? Impedit libero ex sapiente eos cupiditate amet, assumenda quisquam hic inventore ullam quis voluptate ad, exercitationem consequatur dolor officiis harum neque fuga corporis in, accusantium tempora.</p>
+            <a href="#">Plus d'infos&hellip;</a>
+          </div>
+        </div>
+      </article>
+      <article class="col-25">
+        <div class="contact-card">
+          <div>
+            <h3><i class="fa-solid fa-location-dot"></i> Lorem contact titre</h3>
+            <address>
+              <p>11 rue Notre-Dame</p>
+              <p>L-2015 Luxembourg</p>
+              <p class="tel">Tél.: 2478 20 88</p>
+            </address>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="row bg-dark">
+      <article class="col-50">
+        <div class="content-block">
+          <h2>Lorem</h2>
+          <h3>Bose Sleepbuds&trade; II</h3>
+          <div class="content-block__content">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus corporis porro impedit deserunt debitis ut hic reiciendis qui. Amet incidunt quod dolor ullam eum magni velit sed aliquam saepe et.</p>
+            <div class="w-50 float-right m-left-5">
+              <img class="w-100" src="./static/img/img2.jpg" alt="Bose Sleepbuds">
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis vero atque porro? Esse sapiente eius atque fugit repellat molestiae aperiam deserunt labore?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, qui.</p>
+            <a href="#">Plus d'infos&hellip;</a>
+          </div>
+        </div>
+      </article>
+      <article class="col-50">
+        <div class="content-block">
+          <h2>Lorem ipsum dolor</h2>
+          <h3>C'est quoi la réduction de bruit&nbsp;?</h3>
+          <div class="content-block__content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolor, saepe aspernatur ab fuga ratione non cumque illum quasi labore quae praesentium rerum ut pariatur eum accusantium cupiditate tempore perferendis deserunt aut ipsam rem et.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores vitae fugit alias deleniti optio odit assumenda non sequi dolore dicta?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, similique?</p>
+            <a href="#">Plus d'infos&hellip;</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="row justify-content-end bg-center bg-cover bg-img5">
+      <article class="col-50 larger-title">
+        <h2>Probablement les meilleurs casques au monde.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, architecto cumque cum, voluptatibus provident rerum quis quisquam nobis voluptate nostrum modi consequuntur explicabo porro! Architecto fugiat soluta quas.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sed aliquam doloremque, praesentium atque error voluptatem, vel eaque est, delectus dolore sunt!</p>
+      </article>
+    </section>
+
+    <section class="row">
+      <article class="col-50">
+        <div class="content-block">
+          <h2>Lorem ipsum dolor</h2>
+          <h3>Multitâches et élégants</h3>
+          <div class="h-100 flex direction-column justify-content-between gap-4">
+            <aside class="h-100">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, ea sequi blanditiis excepturi officiis facilis in! Veniam numquam quas, ipsum officia dolores voluptatum nisi harum commodi officiis magnam soluta amet sint? Est nam corporis assumenda temporibus earum repudiandae, quia dolore?</p>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa ullam possimus magni autem exercitationem placeat.</p>
+            </aside>
+            <div class="h-100 flex justify-content-center flex-wrap gap-6">
+              <img src="./static/img/img3.jpg" alt="Earphones" class="w-100">
+              <img src="./static/img/img4.jpg" alt="Earphones" class="w-100">
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="col-50">
+        <div class="content-block">
+          <h2>Lorem ipsum dolor</h2>
+          <h3>Finalité de la réserve de compensation</h3>
+          <div class="content-block__content h-100 flex direction-column justify-content-between">
+            <div>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, doloribus ipsa accusamus fugit suscipit alias odio exercitationem autem omnis explicabo pariatur inventore sunt nesciunt! Tempore illo culpa error cumque vitae voluptatem voluptatum vero corporis consequatur dolores incidunt eos ipsum quaerat ex, excepturi architecto inventore quo dolorum. Excepturi numquam dignissimos ullam tempore aut, sed nemo dolore, pariatur id quam facere aspernatur!</p>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore tempora voluptatibus, tempore omnis error, quos, reprehenderit porro maiores fugit cumque consectetur beatae.</p>
+            </div>
+            <aside class="aside-blue ff-secondary">
+              <h3 class="f-style-normal f-weight-400 m-bottom-3"><i class="fa-solid fa-square-plus m-right-1"></i> Plus d'infos&nbsp;:</h3>
+              <p class="m-0">Status de la LOREM</p>
+              <p class="m-0">Loi du 13 février 2007</p>
+              <p class="m-0">Réglement grand-ducal du 12 juillet</p>
+            </aside>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="row bg-dark">
+      <article class="col-100">
+        <div class="content-block">
+          <h3>Quelques chiffres 2020</h3>
+          <div class="flex align-items-center justify-content-around direction-column-portrait gap-4">
+            <div class="figure-block">
+              <h3>Réserves du LOREM</h3>
+              <h4>(chiffres absolus)</h4>
+              <div class="figure-block__values">
+                <p class="value-symbol">
+                  <span class="value">17K</span>
+                  <span class="unit-symbol">€</span>
+                </p>
+                <span class="unit-name">Euro</span>
+              </div>
+            </div>
+            <div class="figure-block">
+              <h3>Rendement</h3>
+              <h4>(YTD)</h4>
+              <div class="figure-block__values">
+                <p class="value-symbol">
+                  <span class="value">2.4</span>
+                  <span class="unit-symbol">%</span>
+                </p>
+                <span class="unit-name">Pourcent</span>
+              </div>
+            </div>
+            <div class="figure-block">
+              <h3>Rendement</h3>
+              <h4>(depuis lancement)</h4>
+              <div class="figure-block__values">
+                <p class="value-symbol">
+                  <span class="value">3.5</span>
+                  <span class="unit-symbol">%</span>
+                </p>
+                <span class="unit-name">Pourcent</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="row direction-column">
+      <h3>Actualités</h3>
+      <div class="flex flex-wrap flex-container justify-content-around gap-4">
+        <div class="news-block bg-black color-white">
+          <div class="news-block__date">04 juin 2020</div>
+          <div class="news-block__content">
+            <h4>Lorem ipsum dolor sit amet.</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus dolore facilis ratione eius ipsam consectetur culpa mollitia, cum, sed, non distinctio impedit quae dolores repudiandae rerum incidunt error.</p>
+            <a href="#">Lire plus&hellip;</a>
+          </div>
+        </div>
+        <div class="news-block">
+          <div class="news-block__date">22 mai 2022</div>
+          <div class="news-block__content">
+            <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni blanditiis minus repellat, ad expedita repudiandae nisi mollitia quidem tempore suscipit nihil velit facere eos totam officiis placeat enim quasi? Laboriosam?</p>
+            <a href="#">Lire plus&hellip;</a>
+          </div>
+        </div>
+        <div class="news-block">
+          <div class="news-block__date">07 janvier 2020</div>
+          <div class="news-block__content">
+            <h4>Lorem ipsum dolor sit amet.</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis libero, facere similique id deserunt doloremque natus neque ab, obcaecati labore quae nemo voluptatum.</p>
+            <a href="#">Lire plus&hellip;</a>
+          </div>
+        </div>
+        <div class="news-block">
+          <div class="news-block__date">23 décembre 2019</div>
+          <div class="news-block__content">
+            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis libero, facere similique id deserunt doloremque natus neque ab, obcaecati labore quae nemo voluptatum.</p>
+            <a href="#">Lire plus&hellip;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <section class="row bg-black color-white">
+      <article class="col-30">
+        <div class="h-100 flex justify-content-center align-items-center">
+          <img src="./static/img/logo-light.png" alt="Logo Bose">
+        </div>
+      </article>
+
+      <article class="col-60">
+        <div class="footer-cols">
+          <ul>
+            <li>Rubrique 1</li>
+            <li>Rubrique 2</li>
+            <li>Rubrique 3</li>
+            <li>Rubrique 4</li>
+            <li>Rubrique 5</li>
+          </ul>
+          <ul>
+            <li>Dernières actualités</li>
+            <li>Publications</li>
+            <li>Appel d'offre</li>
+          </ul>
+          <ul>
+            <li>Aide</li>
+            <li>Contact</li>
+            <li>Plan du site</li>
+            <li>À propos du site</li>
+            <li>Aspects légaux</li>
+            <li>Accessibilité</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <section class="row">
+      <article class="col-100">
+        <div class="flex flex-wrap justify-content-end gap-4">
+          <a href="#">Flux RSS</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Newsletter</a>
+          <a href="#">Newsletter</a>
+          <a href="#">Twitter</a>
+          <a href="#">Facebook</a>
+          <a href="#">Youtube</a>
+        </div>
+      </article>
+    </section>
+  </footer>
+</body>
+
+</html>

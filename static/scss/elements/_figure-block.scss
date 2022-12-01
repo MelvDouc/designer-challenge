@@ -1,0 +1,44 @@
+.figure-block {
+
+  h3,
+  h4 {
+    font-weight: 400;
+    color: var(--clr-gray-darker);
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  h4 {
+    font-size: 0.75em;
+  }
+
+  &__values {
+    position: relative;
+
+    &::before {
+      content: "{";
+      position: absolute;
+      font-weight: 800;
+      left: -0.5em;
+      top: 0;
+      font-size: 7rem;
+      line-height: 1;
+      color: var(--clr-blue-med);
+    }
+  }
+
+  .value {
+    font-size: 4rem;
+    font-weight: 800;
+  }
+
+  .unit-symbol {
+    font-size: 2rem;
+  }
+
+  .unit-name {
+    color: var(--clr-gray-darker);
+  }
+}

@@ -1,0 +1,24 @@
+.row {
+  display: flex;
+  gap: 2em;
+  padding-inline: 12vw;
+
+  &.bg-dark {
+    background-color: rgb(235, 235, 235);
+  }
+
+  @for $i from 0 through 100 {
+    .col-#{$i} {
+      width: percentage(calc($i / 100));
+    }
+  }
+
+  h2 {
+    margin-bottom: 1em;
+  }
+}
+
+main .row,
+footer .row {
+  padding-block: 2em;
+}

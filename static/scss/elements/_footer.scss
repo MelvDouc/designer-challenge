@@ -1,0 +1,28 @@
+footer {
+  font-size: 0.9rem;
+  margin-top: 2em;
+
+  a {
+    color: black;
+  }
+
+  .footer-cols {
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+      list-style: none;
+      display: flex;
+      flex-flow: column wrap;
+      gap: 0.8em;
+
+      &:not(ul:first-child) {
+        border-style: solid;
+        border-color: white;
+        border-width: 0px;
+        border-left-width: 1px;
+        padding-left: 1em;
+      }
+    }
+  }
+}

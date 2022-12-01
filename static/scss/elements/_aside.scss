@@ -1,0 +1,11 @@
+aside {
+  border-style: groove;
+  border-width: 0px;
+  border-left-width: 2px;
+  padding-left: 1em;
+  font-style: italic;
+
+  &.aside-blue {
+    border-color: var(--clr-blue-med);
+  }
+}

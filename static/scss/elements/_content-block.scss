@@ -1,0 +1,22 @@
+.content-block {
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+
+  >h2 {
+    text-transform: uppercase;
+    color: var(--clr-gray-dark);
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  >h3 {
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    margin-bottom: 1.5em;
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+}

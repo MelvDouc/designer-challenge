@@ -1,0 +1,22 @@
+lang-selector {
+  position: relative;
+
+  .options {
+    width: 100%;
+    z-index: 1;
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    filter: drop-shadow(3px 3px 4px var(--clr-blue-med));
+
+    li {
+      padding: 0.33em;
+
+      &:hover {
+        color: white;
+        background-color: var(--clr-blue-med);
+      }
+    }
+  }
+}

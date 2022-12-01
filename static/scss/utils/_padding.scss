@@ -1,0 +1,29 @@
+.p-0 {
+  padding: 0 !important;
+}
+
+@for $i from 0 through 6 {
+  .p-top-#{$i} {
+    padding-top: calc(0.2em * $i) !important;
+  }
+
+  .p-bottom-#{$i} {
+    padding-bottom: calc(0.2em * $i) !important;
+  }
+
+  .p-block-#{$i} {
+    padding-block: calc(0.2em * $i) !important;
+  }
+
+  .p-left-#{$i} {
+    padding-left: calc(0.2em * $i) !important;
+  }
+
+  .p-right-#{$i} {
+    padding-right: calc(0.2em * $i) !important;
+  }
+
+  .p-inline-#{$i} {
+    padding-inline: calc(0.2em * $i) !important;
+  }
+}

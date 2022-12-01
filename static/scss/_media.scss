@@ -1,0 +1,40 @@
+@media only screen and (orientation: portrait) {
+  [class^=col-] {
+    width: 100% !important;
+  }
+
+  .direction-column-portrait {
+    flex-direction: column;
+  }
+
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }
+
+  .footer-cols {
+    flex-flow: column wrap;
+    gap: 2em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  :root {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 30px) {
+  :root {
+    font-size: 12px;
+  }
+}
