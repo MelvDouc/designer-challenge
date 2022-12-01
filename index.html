@@ -23,75 +23,61 @@
         <div class="flex justify-content-end align-items-center gap-1">
           <div>
             <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="search" placeholder="Recherche" class="search-input" tabindex="0">
+            <input type="search" placeholder="Recherche" class="search-input">
           </div>
           <span class="delimiter"></span>
-          <lang-selector tabindex="0">
-            <div class="value-display"><span>FR</span> <i class="fa-solid fa-angle-down"></i></div>
-            <ul class="options hidden">
-              <li tabindex="0">FR</li>
-              <li tabindex="0">EN</li>
-            </ul>
-          </lang-selector>
+          <label for="lang-selector" class="not-visible">Langue</label>
+          <select id="lang-selector">
+            <option value="EN">EN</option>
+            <option value="FR">FR</option>
+          </select>
         </div>
-        <nav>
-          <ul class="direction-column-portrait" tabindex="0">
-            <li>
-              <div class="nav-dropdown">
-                <span>Rubrique 1</span>
-                <ul>
-                  <li><a href="#">Sous-rubrique 1</a></li>
-                  <li><a href="#">Sous-rubrique 2</a></li>
-                  <li><a href="#">Sous-rubrique label plus long 3</a></li>
-                  <li><a href="#">Sous-rubrique 4</a></li>
-                </ul>
-              </div>
-            </li>
-            <li>
-              <div class="nav-dropdown" tabindex="0">
-                <span>Rubrique 2 long label</span>
-                <ul>
-                  <li><a href="#">Sous-rubrique 1</a></li>
-                  <li><a href="#">Sous-rubrique 2</a></li>
-                  <li><a href="#">Sous-rubrique label plus long 3</a></li>
-                  <li><a href="#">Sous-rubrique 4</a></li>
-                </ul>
-              </div>
-            </li>
-            <li>
-              <div class="nav-dropdown" tabindex="0">
-                <span>Rubrique 3</span>
-                <ul>
-                  <li><a href="#">Sous-rubrique 1</a></li>
-                  <li><a href="#">Sous-rubrique 2</a></li>
-                  <li><a href="#">Sous-rubrique label plus long 3</a></li>
-                  <li><a href="#">Sous-rubrique 4</a></li>
-                </ul>
-              </div>
-            </li>
-            <li>
-              <div class="nav-dropdown" tabindex="0">
-                <span>Rubrique 4</span>
-                <ul>
-                  <li><a href="#">Sous-rubrique 1</a></li>
-                  <li><a href="#">Sous-rubrique 2</a></li>
-                  <li><a href="#">Sous-rubrique label plus long 3</a></li>
-                  <li><a href="#">Sous-rubrique 4</a></li>
-                </ul>
-              </div>
-            </li>
-            <li>
-              <div class="nav-dropdown" tabindex="0">
-                <span>Rubrique 5</span>
-                <ul>
-                  <li><a href="#">Sous-rubrique 1</a></li>
-                  <li><a href="#">Sous-rubrique 2</a></li>
-                  <li><a href="#">Sous-rubrique label plus long 3</a></li>
-                  <li><a href="#">Sous-rubrique 4</a></li>
-                </ul>
-              </div>
-            </li>
-          </ul>
+        <nav class="direction-column-portrait">
+          <div class="nav-dropdown">
+            <span>Rubrique 1</span>
+            <ul>
+              <li><a href="#">Sous-rubrique 1</a></li>
+              <li><a href="#">Sous-rubrique 2</a></li>
+              <li><a href="#">Sous-rubrique label plus long 3</a></li>
+              <li><a href="#">Sous-rubrique 4</a></li>
+            </ul>
+          </div>
+          <div class="nav-dropdown">
+            <span>Rubrique 2 long label</span>
+            <ul>
+              <li><a href="#">Sous-rubrique 1</a></li>
+              <li><a href="#">Sous-rubrique 2</a></li>
+              <li><a href="#">Sous-rubrique label plus long 3</a></li>
+              <li><a href="#">Sous-rubrique 4</a></li>
+            </ul>
+          </div>
+          <div class="nav-dropdown">
+            <span>Rubrique 3</span>
+            <ul>
+              <li><a href="#">Sous-rubrique 1</a></li>
+              <li><a href="#">Sous-rubrique 2</a></li>
+              <li><a href="#">Sous-rubrique label plus long 3</a></li>
+              <li><a href="#">Sous-rubrique 4</a></li>
+            </ul>
+          </div>
+          <div class="nav-dropdown">
+            <span>Rubrique 4</span>
+            <ul>
+              <li><a href="#">Sous-rubrique 1</a></li>
+              <li><a href="#">Sous-rubrique 2</a></li>
+              <li><a href="#">Sous-rubrique label plus long 3</a></li>
+              <li><a href="#">Sous-rubrique 4</a></li>
+            </ul>
+          </div>
+          <div class="nav-dropdown">
+            <span>Rubrique 5</span>
+            <ul>
+              <li><a href="#">Sous-rubrique 1</a></li>
+              <li><a href="#">Sous-rubrique 2</a></li>
+              <li><a href="#">Sous-rubrique label plus long 3</a></li>
+              <li><a href="#">Sous-rubrique 4</a></li>
+            </ul>
+          </div>
         </nav>
       </article>
     </section>

@@ -30,6 +30,12 @@
   display: none !important;
 }
 
+.not-visible {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
 .large-title,
 .larger-title {
   padding-block: 4em;
